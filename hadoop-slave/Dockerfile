@@ -1,6 +1,6 @@
-FROM kiwenlau/hadoop-base:0.1.0
+FROM chenhuimin/hadoop-base:1.0
 
-MAINTAINER KiwenLau <kiwenlau@gmail.com>
+MAINTAINER chenhuimin <chenhuimin66@gmail.com>
 
 # move all confugration /tmp into container
 ADD files/* /tmp/
